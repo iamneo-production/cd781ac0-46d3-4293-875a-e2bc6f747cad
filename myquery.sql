@@ -7,3 +7,10 @@ GROUP BY
     state
 ORDER BY
     1;
+
+select
+    *
+from
+    BLOOD_BANK
+where
+    state = 'Andhra Pradesh';

@@ -10,7 +10,7 @@ ORDER BY
     1;
 --2
 select
-    *
+    "Blood Bank Name"
 from
     BLOOD_BANK
 where
@@ -20,4 +20,6 @@ select
     count(*) as "total blood banks" 
 from 
     BLOOD_BANK;
+
+
 

@@ -6,4 +6,4 @@ FROM
 GROUP BY
     state
 ORDER BY
-    STATE;
+    1;

@@ -3,6 +3,7 @@ select state,count(*) as blood_bank_count
 from BLOOD_BANK
 group by state;
 -- question 2
+create index bloodbank name on blood_bank(state);
 select "Blood Bank Name"
 from blood_bank
 where state='Andhra Pradesh';

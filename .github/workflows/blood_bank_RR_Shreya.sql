@@ -21,4 +21,6 @@ order by "Blood Bank Name" ASC;
 /* 5th question */
 select "Blood Bank Name"
 from BLOOD_BANK
+order by "Blood Bank Name" ASC;
+
 

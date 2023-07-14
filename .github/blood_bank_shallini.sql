@@ -1,7 +1,7 @@
 -- num 1
 select state,count(*) as blood_bank_count
 from BLOOD_BANK
-group by state;
+group by State;
 -- num 2
 create index bloodbank name on blood_bank(state);
 select "Blood Bank Name"

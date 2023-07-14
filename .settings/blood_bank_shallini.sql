@@ -1,8 +1,8 @@
--- num 1
+-- question 1
 select state,count(*) as blood_bank_count
 from BLOOD_BANK
 group by state;
---  num 2
+-- num 2
 select "Blood Bank Name"
 from blood_bank
 where state='Andhra Pradesh';

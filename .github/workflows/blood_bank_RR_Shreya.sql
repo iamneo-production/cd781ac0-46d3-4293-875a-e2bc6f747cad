@@ -1,3 +1,6 @@
+/* 'CREATE index blood on BLOOD_BANK("Blood Bank Name");'
+This index already exists/*
+
 /* 1st question */
 select state,count(*) as totcount_state
 from BLOOD_BANK

@@ -37,6 +37,6 @@ SELECT
 FROM
     BLOOD_BANK
 ORDER BY 
-    "Blood Bank Name" ASC
+    "Blood Bank Name" ASC;
 
 

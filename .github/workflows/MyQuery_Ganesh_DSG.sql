@@ -21,7 +21,7 @@ from
     BLOOD_BANK;
 
 --query 4 first 5 blood banks
--- set TIMING on;
+--set TIMING on;
 SELECT
     "Blood Bank Name"
 FROM
@@ -38,5 +38,6 @@ FROM
     BLOOD_BANK
 ORDER BY 
     "Blood Bank Name" ASC;
+
 
 

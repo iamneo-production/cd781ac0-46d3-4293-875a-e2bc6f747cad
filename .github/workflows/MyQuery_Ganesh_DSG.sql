@@ -1,7 +1,7 @@
 --query -1 no.of blood banks in state
 SELECT
     STATE,
-    count(*) NO_OF_BLOOD_BANKS
+    count(STATE) NO_OF_BLOOD_BANKS
 FROM
     BLOOD_BANK
 GROUP BY
@@ -13,7 +13,7 @@ select
 from
     BLOOD_BANK
 where
-    state = 'Andhra Pradesh';
+    state like 'Andh%';
 --Query-3 total blood bank
 select 
     count(id) as "total blood banks" 

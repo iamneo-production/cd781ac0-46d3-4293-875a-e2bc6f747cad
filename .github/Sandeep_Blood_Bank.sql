@@ -15,8 +15,8 @@ from blood_bank;
 -- question 4
 select "Blood Bank Name"
 from blood_bank
-where rownum<=5
-order by "Blood Bank Name" asc;
+order by "Blood Bank Name" asc
+where rownum<=5;
 
 -- question 5
 select "Blood Bank Name"

@@ -1,4 +1,5 @@
 /* query -1 no.of blood banks in state */
+/*set timer on*/
 SELECT
     STATE,
     count(STATE) NO_OF_BLOOD_BANKS

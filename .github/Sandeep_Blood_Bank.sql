@@ -1,6 +1,8 @@
 -- question 1
 select state,count(*) as state_count
 from blood_bank
+group by state;select state,count(*) as state_count
+from blood_bank
 group by state;
 
 -- question 2

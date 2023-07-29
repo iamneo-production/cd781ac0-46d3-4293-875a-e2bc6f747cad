@@ -2,12 +2,12 @@
 --set timer on
 SELECT
     STATE,
-    count(STATE) NO_OF_BLOOD_BANKS
+    count(STATE) AS NO_OF_BLOOD_BANKS
 FROM
     BLOOD_BANK
 GROUP BY
     state
-ORDER BY state;
+ORDER BY state ASC;
 --Query-2 blood banks in Andhra pradesh
 select
     "Blood Bank Name"

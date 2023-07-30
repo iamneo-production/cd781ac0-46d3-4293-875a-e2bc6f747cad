@@ -3,7 +3,7 @@ select state,count(*) as tcount_state
 from blood_bank
 group by state;
 
---question_2
+--question_2 select statement 
 select "Blood Bank Name"
 from blood_bank
 where state='Andhra Pradesh';
@@ -21,4 +21,4 @@ where rownum<=5;
 --question_5
 select "Blood Bank Name"
 from blood_bank
-order by "Blood Bank Name" asc;
+order by "Blood Bank Name";

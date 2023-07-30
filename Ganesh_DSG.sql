@@ -1,4 +1,4 @@
---query -1 no.of blood banks in state 
+--query -1  
 --set timer on
 SELECT
     STATE,

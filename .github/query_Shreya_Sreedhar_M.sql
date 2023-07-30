@@ -1,20 +1,20 @@
--- Query 1
+-- Query1
 select state, count(*) as bank_count
 from BLOOD_BANK
 group by state;
--- Query 2
+-- Query2
 select "Blood Bank Name"
 from BLOOD_BANK
 where state='Andhra Pradesh';
--- Query 3
+-- Query3
 select count(*) as count_bloodbank
 from BLOOD_BANK;
--- Query 4
+-- Query4
 select "Blood Bank Name"
 from BLOOD_BANK
 order by "Blood Bank Name" asc
 where rownum<=5;
--- Query 5
+-- Query5
 select "Blood Bank Name"
 from BLOOD_BANK
 order by "Blood Bank Name" asc;

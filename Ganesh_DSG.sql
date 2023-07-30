@@ -1,5 +1,5 @@
---query -1 select  
---set timer on
+--query -1  
+--set timer on    for time
 SELECT
     STATE,
     count(STATE) AS NO_OF_BLOOD_BANKS

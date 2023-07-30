@@ -9,7 +9,7 @@ from blood_bank
 where state='Andhra Pradesh';
 
 --question_3
-select count(*) as tcount_bloodbank
+select count(*) as totcount_bloodbank
 from blood_bank;
 
 --question_4
@@ -21,4 +21,4 @@ where rownum<=5;
 --question_5
 select "Blood Bank Name"
 from blood_bank
-order by "Blood Bank Name";
+order by "Blood Bank Name" asc;

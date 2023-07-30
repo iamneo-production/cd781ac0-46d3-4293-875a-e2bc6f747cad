@@ -12,7 +12,7 @@ where state='Andhra Pradesh';
 select count(*) as bloodbank_count
 from blood_bank;
 
--- question 4
+-- question 4--
 select "Blood Bank Name"
 from blood_bank
 order by "Blood Bank Name" asc

@@ -3,7 +3,7 @@ select state,count(*) as tcount_state
 from blood_bank
 group by state;
 
---question_2 select statement 
+--question_2 
 select "Blood Bank Name"
 from blood_bank
 where state='Andhra Pradesh';

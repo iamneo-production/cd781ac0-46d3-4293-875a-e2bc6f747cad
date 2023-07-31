@@ -21,8 +21,11 @@ ORDER BY
     "Blood Bank Name" ASC
 OFFSET 0 ROWS
 FETCH FIRST 5 ROWS ONLY;
+
 -- question 5
 select "Blood Bank Name"
 from blood_bank
 order by "Blood Bank Name" asc;
+
+
 

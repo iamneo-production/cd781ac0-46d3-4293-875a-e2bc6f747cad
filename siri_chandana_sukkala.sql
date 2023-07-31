@@ -15,6 +15,10 @@ from blood_bank;
 --question_4
 select "Blood Bank Name"
 from blood_bank
+<<<<<<< HEAD
+=======
+order by "Blood Bank Name" asc
+>>>>>>> 0eaf8617664e6908b976c39cba15adbdd6f7f3cb
 offset 0 rows
 fetch first 5 rows only;
 

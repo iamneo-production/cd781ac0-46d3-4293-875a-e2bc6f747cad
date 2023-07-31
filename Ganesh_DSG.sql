@@ -31,7 +31,7 @@ ORDER BY
 OFFSET 0 ROWS
 FETCH FIRST 5 ROWS ONLY;
 
---QUERY 5 Blood bank  names in alphabetical order
+--QUERY 5 Blood bank  names in alphabetical order in BLOOD_BANK Table
 SELECT
     "Blood Bank Name"
 FROM

@@ -1,26 +1,23 @@
--- Query 1
-select state,count(*) as blood_bank_count
-from BLOOD_BANK
+-- question 1
+select state,count(*) as tcount_state
+from blood_bank
 group by state;
---  Query 2
->>>>>>> 21bbbf6dd27c9c12c5afb33e183852383db74a2b:shalini_pugalenthi.sql
+
+-- question 2
 select "Blood Bank Name"
 from blood_bank
 where state='Andhra Pradesh';
-<<<<<<< HEAD:Shreyasavi.sql
--- Query3
-select count(*) as count_bloodbank
-=======
--- Query 3
-select count(*) as tblood_bank_count
->>>>>>> 21bbbf6dd27c9c12c5afb33e183852383db74a2b:shalini_pugalenthi.sql
-from BLOOD_BANK;
--- Query4
+
+-- questions 3
+select count(*) as tcount_bloodbank
+from blood_bank;
+
+-- question 4
 select "Blood Bank Name"
 from BLOOD_BANK
-order by "Blood Bank Name" asc
-where rownum<=5;
--- Query5
+where rownum<=5
+order by "Blood Bank Name" asc;
+-- question 5
 select "Blood Bank Name"
-from BLOOD_BANK
+from blood_bank
 order by "Blood Bank Name" asc;

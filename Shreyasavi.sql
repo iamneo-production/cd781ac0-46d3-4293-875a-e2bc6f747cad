@@ -13,7 +13,8 @@ from BLOOD_BANK;
 select "Blood Bank Name"
 from BLOOD_BANK
 order by "Blood Bank Name" asc
-where rownum<=5;
+offset 0 rows
+fetch first 5 rows only;
 -- Query 5
 select "Blood Bank Name"
 from BLOOD_BANK

@@ -15,7 +15,6 @@ from BLOOD_BANK
 order by "Blood Bank Name" ASC
 OFFSET 0 ROWS
 fetch FIRST 5 ROWS ONLY;
-
 -- Query5
 select "Blood Bank Name"
 from BLOOD_BANK

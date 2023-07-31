@@ -1,10 +1,3 @@
-<<<<<<< HEAD:Shreyasavi.sql
--- Query1
-select state, count(*) as bank_count
-from BLOOD_BANK
-group by state;
--- Query2
-=======
 -- Query 1
 select state,count(*) as blood_bank_count
 from BLOOD_BANK

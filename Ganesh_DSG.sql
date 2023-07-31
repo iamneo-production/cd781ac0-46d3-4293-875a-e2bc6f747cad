@@ -5,7 +5,7 @@ SELECT
     count(STATE) AS NO_OF_BLOOD_BANKS
 FROM
     BLOOD_BANK
-GROUP BY
+GROUP BY  
     state
 ORDER BY state ASC;
 --Query-2 blood banks in Andhra pradesh

@@ -1,18 +1,18 @@
--- Query 1
-select state,count(*) as blood_bank_count
-from BLOOD_BANK
+-- question 1
+select state,count(*) as tcount_state
+from blood_bank
 group by state;
 
--- Query 2
+-- question 2
 select "Blood Bank Name"
 from blood_bank
 where state='Andhra Pradesh';
 
--- Query 3
-select COUNT(*) as BLOOD_BANK
-from BLOOD_BANK;
+-- questions 3
+select count(*) as tcount_bloodbank
+from blood_bank;
 
--- Query 4
+-- question 4#
 select
     "Blood Bank Name"
 from
@@ -22,7 +22,7 @@ order by
 offset 0 rows
 fetch first 5 rows only;
 
--- Query 5
+-- question 5
 select "Blood Bank Name"
-from BLOOD_BANK
+from blood_bank
 order by "Blood Bank Name" asc;
